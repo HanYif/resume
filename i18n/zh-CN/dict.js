@@ -22,8 +22,8 @@ module.exports = {
             "en": "Education"
         },
         "language": {
-            "ch": "语言水平",
-            "en": "Language"
+            "ch": "学业情况",
+            "en": "studying evaluation"
         },
         "experience": {
             "ch": "项目与工作经验",

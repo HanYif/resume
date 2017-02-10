@@ -1,114 +1,66 @@
-
 {
   "data_lang": "zh-CN",
   "ga_id": "UA-63818301-2",
-  "resume_title": "刘怡涛 - 个人简历",
-  "name": "刘怡涛",
-  "repo": "https://github.com/leoeatle/resume.git",
+  "resume_title": "韩熠帆 - 个人简历",
+  "name": "韩熠帆",
+  "repo": "https://github.com/HanYif/resume.git",
   "job_description": ["Web Developing Engineer"],
   "contact": {
-    "email": "liuyitao811@hotmail.com",
+    "email": "569502295@qq.com",
     "wechat": {
-      "id": "LeoEatle",
-      "qrcode": "static/wechat.png"
-    },
-    "sinaweibo": {
-      "id": "怡涛－在妖都在暨大",
-      "url": "http://weibo.com/liuyitao811/"
+      "id": "见左方二维码",
+      "qrcode": "static/wechat.jpg"
     },
     "github": {
-      "id": "LeoEatle"
+      "id": "HanYif"
     },
     "blog": {
-      "url": "http://istillhaveboobs.com"
+      "url": "http://www.cnblogs.com/sysuhanyf"
     }
   },
   "links": [{
     "type": "repo",
-    "url": "https://github.com/LeoEatle/resume"
-
-  }, {
-    "type": "pdf",
-    "url": "static/leoeatle.pdf"
-
-  }, {
-    "type": "zhihu",
-    "url": "https://www.zhihu.com/people/leoeatle"
-  }, {
-    "type": "doubanbook",
-    "url": "https://www.douban.com/people/58703417/"
+    "url": "https://github.com/HanYif/resume"
   }],
    "education": [{
     "type": "undergraduate",
-    "name": "暨南大学",
-    "major": "计算机科学技术（全英）",
-    "start": "2013",
-    "end": "2017",
-    "honor": [
-      "参加两届爱范儿&SegmentFault举办的`黑客马拉松` 24小时开发微信小程序并获奖",
-      "参加天池大数据竞赛"
-    ]
+    "name": "中山大学",
+    "major": "软件工程",
+    "start": "2014",
+    "end": "2018",
+    "honor": []
   }],
   "language": [{
     "type": "english",
     "certificate": [{
+      "type": "GPA",
+      "full": "5",
+      "score": "3.6"
+    }, {
       "type": "CET-4",
       "full": "710",
-      "score": "550"
+      "score": "525"
     }, {
       "type": "CET-6",
       "full": "710",
-      "score": "482"
+      "score": "529"
     }],
     "description": [
-      "国际学院**全英教学**，使用英文经典计算机教材",
-      "浏览StackOverFlow、LeetCode、Codepen等社区，能查阅英文文档",
-      "有两个博客，技术博客和生活博客"
+      "浏览StackOverFlow等社区，能查阅英文文档",
+      "良好的计算机网络、数据结构基础"
     ]
   }],
   "experience": [{
     "type": "internship",
     "techtype": "frontend",
-    "place": "SegmentFault",
-    "start": "2016.10",
-    "end": "2016.12",
-    "name": "前端工程师",
+    "place": "中山大学数据院Web开发实验室",
+    "start": "2016.7",
+    "end": "2016.9",
+    "name": "前端开发",
     "description": [
-      "开发用户浏览记录模块",
-      "改造了一个coffee script写的组件，用于标签输入的检查、拉取列表、更新",
-      "改进twig模版"
-    ]
-  },{
-    "type": "internship",
-    "techtype": "frontend",
-    "place": "上海银联",
-    "start": "2016.06",
-    "end": "2016.10",
-    "name": "'银联钱包'开发工程师",
-    "description": [
-      "使用`React.js`配合iOS/Android进行Hybrid app开发，使用webpack作为打包方案",
-      "前后端分离，配合后端提供的接口实现RestFul API开发",
-      "Web端CSRF漏洞处理，进行token改造"
-    ],
-    "stack": ["React.js", "Redux","Gulp", "Webpack", "node.js", "Babel"],
-    "compatibility": "IE8+"
-  },{
-    "type": "project",
-    "techtype": "frontend",
-    "name": "约否活动信息平台",
-    "description": [
-      "本人的创业项目，使用`React.js/Gulp/Babel/Browserfy`技术栈",
-      "后台使用`python Flask`框架，使用ORM，部署于腾讯云上，熟悉`Ubuntu`系统和`Nginx`"
-    ],
-    "stack": ["React.js", "Gulp", "Babel", "node.js", "SpringMVC"],
-    "compatibility": "IE8+"
-  },{
-    "type":"project",
-    "techtype": "frontend",
-    "name": "生物信息库xml分析",
-    "description":[
-        "使用Java的`dom4j`库对大量的生物反应数据库xml文件进行解析",
-        "编写`JSP`页面，用`Angular.js`框架的MVC架构呈现信息，实现单页面应用程序"
+      "参与重构学院web课程作业提交系统，了解使用Angular的构建过程",
+      "完成教师端表单的实现和语义化标签的实现",
+      "实现过程中对Angular的双向绑定机制和模块组件化有了更深的了解"
     ]
   }],
   "skills": [{
@@ -116,56 +68,38 @@
     "item": [{
       "summary": "`HTML` / `CSS`",
       "description": [
-        "能够编写语义化的 `HTML`，模块化的 `CSS`，实现较复杂的布局与CSS3动画",
+        "能够编写语义化的 `HTML`，模块化的 `CSS`，实现较复杂的布局",
         "熟悉已标准化的 `HTML5` / `CSS3` 新特性，做到响应式布局和各主流浏览器适配"
       ]
     }, {
-      "summary": "`ECMAScript`（`JavaScript`）",
+      "summary": "`JavaScript`",
       "description": [
-        "熟悉 `ECMAScript`（`JavaScript`）,理解js的原型链、闭包等概念",
-        "了解 `ES6` 新标准与相关后处理工具并能在项目中使用新特性，阅读js开源代码"      ]
+        "熟悉原生Js编程, 理解Js的闭包、原型链等概念",
+        "正在学习ES6"      ]
     }, {
-      "summary": "`DOM` / `BOM` 及常见 `Web API`",
+      "summary": "`前端工程实践`",
       "description": [
-        "熟悉原生 `DOM` ,有相关移动端/桌面端开发经验",
-        "了解浏览器DOM树的构建，了解浏览器缓存机制"
-      ]
-    }, {
-      "summary": "前端工程实践",
-      "description": [
-        "了解`React.js`，了解虚拟DOM和differ机制，了解`Vue.js`,`Angular.js`等其他框架",
-        "熟悉 `jQuery` /  `Bootstrap` 的使用、定制与扩展",
-        "了解`Require.js` / `WebPack` 等多种模块化解决方案"      ]
+        "熟悉同后台相关开发人员协作，获取后端数据进行效果展示",
+        "了解`AngularJs`及其模块化开发过程",
+        "了解`Ajax`、`jQuery`的使用",
+        "了解`gulp`自动化构建项目"
+        ]
     }]
   }, {
     "type": "backend",
     "item": [
       {
-      "summary": "`Python`",
-      "description": [
-        "做过爬取搜狐军事新闻的爬虫，做过爬取百度单词音频的爬虫，做过Django，做过一键上传七牛云脚本",
-        "使用Python配合Mininet实现SDN",
-        "使用Python在Leetcode上进行算法编程练习"
-      ]
-    }, {
-    	"summary": "`Java`",
-    	"description":[
-    		"`JSP`开发经验，实现`DAO层`",
-        "熟练使用IntelliJ，了解openxava, Vaadin等框架"
-    	]
-    }, {
-      "summary": "`System`",
-      "description": [
-        "利用国内云计算平台搭建自己的博客服务器，并使用Centos/Ubuntu多种Linux系统",
-        "多年使用`mac终端经验`，熟悉命令行操作",
-        "维护Minecraft服务器"
+      "summary": "`express`",
+      "description":[
+        "使用express搭建简单的服务器"
       ]
     }]
   }, {
     "type": "miscellaneous",
     "item": [
-      "使用git进行代码管理，用Github进行代码托管",
-      "使用Sketch进行前端界面设计",
+      "关注前端发展",
+      "社团和团队合作经验，有良好的工作协调能力",
+      "使用`git`进行代码管理，用Github进行代码托管",
       "能够使用 `Markdown` 编写博客，具备良好的技术交流能力"
     ]
   }]
